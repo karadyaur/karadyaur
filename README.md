@@ -4,7 +4,7 @@ I'm a 20-year-old developer based in Germany, and I'm passionate about crafting 
 
 - I’m currently improving my Python skills on new projects.
 - Check out my [resume](https://github.com/karadyauran/karadyauran/blob/main/resume/Alex%20Karadiaur%20Backend.pdf) to know more about me.
-- Currently working on a projects [lokomark](https://github.com/Lokomark-smart-warehouse).
+- Currently working on a projects [lokomark](https://github.com/Lokomark-smart-warehouse) and [emplofy](https://github.com/Emplofy).
 - Reach me by email: alex.karadyaur@outlook.com.
  
 ## 📦 Toolbox
