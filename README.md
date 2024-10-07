@@ -2,14 +2,14 @@
 
 I'm a 20-year-old developer based in Germany, and I'm passionate about crafting digital experiences. 
 
-- I’m currently improving my Python skills on new projects.
-- Check out my [resume](https://github.com/karadyauran/karadyauran/blob/main/resume/Alex%20Karadiaur%20Backend.pdf) to know more about me.
+- I’m currently improving my Golang skills on new projects.
+- I'm working on my resume right now...
 - Currently working on a projects [masters-way](https://github.com/tritonJS826/masters-way)
 - Reach me by email: alex.karadyaur@outlook.com.
  
 ## 📦 Toolbox
 
-**Backend Development:** `Python` `Django` `Java` `Spring`
+**Backend Development:** `Golang` `Gin` `Python` `Django` `Java` `Spring`
  
 **Version Control:** `Git` `GitLab` `GitHub`
 
@@ -17,11 +17,11 @@ I'm a 20-year-old developer based in Germany, and I'm passionate about crafting 
 
 **Testing:** `Postman` `JUnit` `TestNG`
 
-**Others:** `Docker` `NGINX` `Redis` `Kafka`
+**Others:** `Docker` `NGINX` `Redis` `Kafka` `gRPC` `sqlc` `PostgreSQL` `MongoDB` `etc...`
  
 ## ✨ Fun Facts 
 
-- Cars is my favorite cartoon from childhood.
+- I'm interested in aviation.
 - As a kid, I wanted to be an astronaut.
 - I'm using Windows, MacOS and Linux.
 
