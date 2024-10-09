@@ -4,7 +4,7 @@ I'm a 20-year-old developer based in Germany, and I'm passionate about crafting 
 
 - I’m currently improving my Golang skills on new projects.
 - I'm working on my resume right now...
-- Currently working on a projects [masters-way](https://github.com/tritonJS826/masters-way)
+- Currently working on a projects [soul-connect](https://github.com/karadyauran/soul-connect) and [masters-way](https://github.com/tritonJS826/masters-way)
 - Reach me by email: alex.karadyaur@outlook.com.
  
 ## 📦 Toolbox
