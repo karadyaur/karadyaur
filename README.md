@@ -11,13 +11,13 @@ I'm a 20-year-old developer based in Germany, and I'm passionate about crafting 
 
 **Backend Development:** `Golang` `Gin` `Python` `Django` `Java` `Spring`
  
-**Version Control:** `Git` `GitLab` `GitHub`
+**Version Control:** `Git` `GitHub`
 
-**Frontend Development:** `JavaScript` `TypeScript` `React` 
+**Frontend Development:** `TypeScript` `React` 
 
 **Testing:** `Postman` `JUnit` `TestNG`
 
-**Others:** `Docker` `NGINX` `Redis` `Kafka` `gRPC` `sqlc` `PostgreSQL` `MongoDB` `etc...`
+**Others:** `Docker` `NGINX` `Redis` `Kafka` `Grafana` `gRPC` `sqlc` `PostgreSQL` `MongoDB` `MySQL` `etc...`
  
 ## ✨ Fun Facts 
 
