@@ -13,7 +13,7 @@ I'm a 20-year-old developer based in Germany, and I'm passionate about crafting 
  
 **Version Control:** `Git` `GitHub`
 
-**Frontend Development:** `TypeScript` `React` 
+**Frontend Development:** `TypeScript` `React` `Next.js`
 
 **Testing:** `Postman` `JUnit` `TestNG`
 
