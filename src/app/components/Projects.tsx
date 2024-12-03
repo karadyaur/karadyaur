@@ -3,47 +3,85 @@ interface Project {
   description: string;
   technologies: string[];
   imageUrl?: string;
+  link?: string;
 }
 
 const projects: Project[] = [
   {
     title: "Keep-git",
-    description: "Description of project 1 and its features.",
+    description: "AI-powered Git commit message generator that helps developers write meaningful and consistent commit messages.",
     technologies: ["Python", "OpenAI API"],
+    imageUrl: "/keep-git-img.png",
+    link: "https://github.com/karadyauran/keep-git"
   },
   {
     title: "From-O-to-Ship",
-    description: "Description of project 2 and its features.",
-    technologies: ["Golang", "Docker", "gRPC"],
+    description: "AI Developer Light is a platform that helps developers to build, train, and deploy backend services with ease.",
+    technologies: ["Golang", "Docker", "gRPC", "Kafka", "PostgreSQL"],
+    imageUrl: "/ai-dev.png",
+    link: "https://github.com/karadyauran/ai-developer-light"
   },
   {
     title: "Personal Website",
-    description: "Description of project 3 and its features.",
+    description: "Persenal website built with NextJS, Tailwind CSS and TypeScript.",
     technologies: ["NextJS", "Tailwind CSS", "TypeScript"],
+    imageUrl: "/website.png",
+    link: "https://karadiaur.dev"
   },
 ];
 
+const TechStack = ({ technologies }: { technologies: string[] }) => (
+  <div className="flex gap-2 flex-wrap">
+    {technologies.map((tech, index) => (
+      <span
+        key={index}
+        className="px-3 py-1 bg-neutral-700 rounded-full text-sm 
+                 hover:bg-neutral-600 transition-colors duration-200"
+      >
+        {tech}
+      </span>
+    ))}
+  </div>
+);
+
+const ProjectCard = ({ project }: { project: Project }) => (
+  <div className="group bg-neutral-800 rounded-lg overflow-hidden 
+                  transition-all duration-300
+                  hover:shadow-2xl cursor-pointer">
+    <a href={project.link} target="_blank" rel="noopener noreferrer">
+      {project.imageUrl ? (
+        <img 
+          src={project.imageUrl} 
+          alt={project.title}
+          className="w-full aspect-video object-cover"
+        />
+      ) : (
+        <div className="aspect-video bg-neutral-700 group-hover:bg-neutral-600 
+                      transition-colors duration-200" />
+      )}
+      <div className="p-6">
+        <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400 
+                       transition-colors duration-200">
+          {project.title}
+        </h3>
+        <p className="text-neutral-400 mb-4">{project.description}</p>
+        <TechStack technologies={project.technologies} />
+      </div>
+    </a>
+  </div>
+);
+
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen py-20 bg-neutral-900">
+    <section id="projects" className="py-20 bg-neutral-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-8">Projects</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-8 
+                       hover:text-blue-400 transition-colors duration-200">
+          Projects
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, i) => (
-            <div key={i} className="bg-neutral-800 rounded-lg overflow-hidden">
-              <div className="aspect-video bg-neutral-700" />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-neutral-400 mb-4">{project.description}</p>
-                <div className="flex gap-2 flex-wrap">
-                  {project.technologies.map((tech, index) => (
-                    <span key={index} className="px-3 py-1 bg-neutral-700 rounded-full text-sm">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
+            <ProjectCard key={i} project={project} />
           ))}
         </div>
       </div>
