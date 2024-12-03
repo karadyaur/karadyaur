@@ -11,20 +11,20 @@ export default function Header() {
       <div className="relative z-10">
         <section id="hero" className="min-h-screen flex items-center justify-center">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
-            <div className="w-48 h-48 mb-6 overflow-hidden rounded-full border-4 border-white">
+            <div className="w-32 h-32 sm:w-48 sm:h-48 mb-4 sm:mb-6 overflow-hidden rounded-full border-4 border-white">
               <img 
                 src="/resume-photo.png" 
                 alt="Alex Karadiaur" 
                 className="w-full h-full object-cover"
               />
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               Alex Karadiaur
             </h1>
-            <p className="mt-4 text-xl sm:text-2xl text-neutral-400">
+            <p className="mt-2 sm:mt-4 text-lg sm:text-xl md:text-2xl text-neutral-400">
               Software Engineer & Web Developer
             </p>
-            <div className="mt-8 flex justify-center gap-4">
+            <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row justify-center gap-4">
               <a href="#contact" className="px-6 py-3 bg-white text-black rounded-full hover:bg-neutral-200 transition-colors">
                 Contact Me
               </a>

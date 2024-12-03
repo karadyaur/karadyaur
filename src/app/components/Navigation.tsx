@@ -21,7 +21,7 @@ const Navigation = () => {
 
   return (
     <div 
-      className="fixed w-full h-20 top-0 z-50 mt-5"
+      className="fixed w-full h-20 top-0 z-50 mt-5 hidden md:block"
       onMouseLeave={() => setIsMouseNearTop(false)}
     >
       <nav className={`w-full px-4 sm:px-6 lg:px-8 flex justify-center transition-all duration-500
