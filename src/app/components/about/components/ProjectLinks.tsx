@@ -1,16 +1,8 @@
 const links = [
-  "I'm currently improving my Golang skills on new projects.",
-  <>
-    Currently working on projects{' '}
-    <a href="https://github.com/karadyauran/ai-developer-light" className="text-blue-400 hover:text-blue-300 transition-colors">
-      ai-dev
-    </a>
-    {' '}and{' '}
-    <a href="https://github.com/karadyauran/keep-git" className="text-blue-400 hover:text-blue-300 transition-colors">
-      keep-git
-    </a>
-  </>,
-  <>Reach me by email: <a href="mailto:alex.karadyaur@outlook.com" className="text-blue-400 hover:text-blue-300 transition-colors">alex.karadyaur@outlook.com</a></>
+  "Engineered high-performance backend systems optimized for scale.",
+  "Delivered modern and intuitive frontend solutions using Next.js.",
+  "Improved deployment pipelines with CI/CD automation and containerization.",
+  "Maintained system reliability through advanced monitoring and troubleshooting.",
 ];
 
 export const ProjectLinks = () => (

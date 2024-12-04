@@ -11,9 +11,9 @@ export default function About() {
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12 bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">About Me</h2>
         <div className="prose prose-invert max-w-none space-y-8">
           <InfoBlock gradient="from-green-400 to-blue-500">
-            <GradientTitle gradient="from-yellow-400 to-blue-500">Hey, I'm Alex</GradientTitle>
+            <GradientTitle gradient="from-yellow-400 to-blue-500">Hello, I'm Alex</GradientTitle>
             <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed">
-              I'm a 20-year-old developer based in Germany, and I'm passionate about crafting digital experiences.
+              I'm a passionate software developer based in Germany, dedicated to crafting efficient, modern, and user-focused digital solutions. My work bridges backend performance, frontend usability, and DevOps reliability, ensuring seamless integration of all layers.  
             </p>
             <ProjectLinks />
           </InfoBlock>
