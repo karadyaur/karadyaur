@@ -5,8 +5,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-8 bg-neutral-900 text-gray-300">
-      <div className="container mx-auto px-4">
+    <footer className="py-6 bg-neutral-900 text-gray-300">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col items-center md:flex-row md:justify-between md:items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-base sm:text-lg font-semibold">Alex Karadiaur</p>

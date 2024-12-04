@@ -1,8 +1,25 @@
+'use client'
+
 export default function Header() {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const href = e.currentTarget.getAttribute('href');
+    if (href) {
+      document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <header className="relative min-h-screen overflow-hidden">
+    <header className="relative min-h-[80vh] sm:min-h-screen overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <video autoPlay muted loop className="w-full h-full object-cover">
+        <video 
+          autoPlay 
+          muted 
+          loop  
+          playsInline 
+          className="w-full h-full object-cover"
+          poster="/fallback-background.jpg" // Add an appropriate fallback image
+        >
           <source src="https://videos.pexels.com/video-files/4629650/4629650-uhd_4096_2160_25fps.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/70"></div>
@@ -25,10 +42,18 @@ export default function Header() {
               Software Engineer & Web Developer
             </p>
             <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row justify-center gap-4">
-              <a href="#contact" className="px-6 py-3 bg-white text-black rounded-full hover:bg-neutral-200 transition-colors">
+              <a 
+                href="#contact" 
+                onClick={handleClick}
+                className="px-6 py-3 bg-white text-black rounded-full hover:bg-neutral-200 transition-colors"
+              >
                 Contact Me
               </a>
-              <a href="#projects" className="px-6 py-3 border border-white rounded-full hover:bg-white/10 transition-colors">
+              <a 
+                href="#projects" 
+                onClick={handleClick}
+                className="px-6 py-3 border border-white rounded-full hover:bg-white/10 transition-colors"
+              >
                 View Projects
               </a>
             </div>
