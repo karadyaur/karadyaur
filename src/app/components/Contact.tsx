@@ -9,7 +9,7 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-center mb-8">Contact Me</h2>
         <div className="flex flex-col items-center md:flex-row md:justify-center gap-8">
           <Link 
-            href="mailto:karadyauran@gmail.com" 
+            href="mailto:alexander.karadyaur@gmail.com" 
             className="flex items-center gap-2 hover:text-blue-600"
           >
             <FiMail size={20} />
