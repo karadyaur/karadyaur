@@ -18,7 +18,6 @@ export default function Header() {
           loop  
           playsInline 
           className="w-full h-full object-cover"
-          poster="/fallback-background.jpg" // Add an appropriate fallback image
         >
           <source src="https://videos.pexels.com/video-files/4629650/4629650-uhd_4096_2160_25fps.mp4" type="video/mp4" />
         </video>

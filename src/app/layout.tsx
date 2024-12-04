@@ -19,6 +19,17 @@ export const metadata: Metadata = {
   description: "Personal website and portfolio of Alex Karadiaur, a software engineer focused on web development.",
   keywords: ["software engineer", "web developer", "frontend", "backend", "full-stack"],
   authors: [{ name: "Alex Karadiaur" }],
+  icons: {
+    icon: [
+      {
+        url: '/code.ico',
+        sizes: 'any',
+        type: 'image/x-icon',
+      }
+    ],
+    shortcut: '/code.ico',
+    apple: '/code.ico',
+  },
 };
 
 export default function RootLayout({

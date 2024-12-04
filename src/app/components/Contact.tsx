@@ -13,7 +13,7 @@ const Contact = () => {
             className="flex items-center gap-2 hover:text-blue-600"
           >
             <FiMail size={20} />
-            <span>karadyauran@gmail.com</span>
+            <span>alexander.karadyaur@gmail.com</span>
           </Link>
           <Link 
             href="https://t.me/karadyauran" 
